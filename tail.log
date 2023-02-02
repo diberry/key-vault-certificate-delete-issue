@@ -1,0 +1,888 @@
+.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "33eb90e5-d91c-4b0a-9c0b-f30a4794a6db",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "33eb90e5-d91c-4b0a-9c0b-f30a4794a6db",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "33eb90e5-d91c-4b0a-9c0b-f30a4794a6db",
+  "x-ms-request-id": "d0cf0848-d06d-4d60-a8a1-d5906b062ac3",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:11 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 33eb90e5-d91c-4b0a-9c0b-f30a4794a6db
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 57ee20e3-9da7-458e-a0ca-41d608149af7
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "57ee20e3-9da7-458e-a0ca-41d608149af7",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "57ee20e3-9da7-458e-a0ca-41d608149af7",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "57ee20e3-9da7-458e-a0ca-41d608149af7",
+  "x-ms-request-id": "3e31c075-7180-4887-9a39-6c3afd475e55",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:13 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 57ee20e3-9da7-458e-a0ca-41d608149af7
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 4da2aa75-5e57-4d17-a020-b910e947a7c9
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "4da2aa75-5e57-4d17-a020-b910e947a7c9",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "4da2aa75-5e57-4d17-a020-b910e947a7c9",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "4da2aa75-5e57-4d17-a020-b910e947a7c9",
+  "x-ms-request-id": "826a5bc9-e42f-4c5b-9218-ea8d5b1a2b50",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:15 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 4da2aa75-5e57-4d17-a020-b910e947a7c9
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 6d1a23a2-49fe-418f-92a3-2cfcb1e11d7d
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "6d1a23a2-49fe-418f-92a3-2cfcb1e11d7d",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "6d1a23a2-49fe-418f-92a3-2cfcb1e11d7d",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "6d1a23a2-49fe-418f-92a3-2cfcb1e11d7d",
+  "x-ms-request-id": "76479166-dee5-4f06-8a2f-f384e88fe3fa",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:17 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 6d1a23a2-49fe-418f-92a3-2cfcb1e11d7d
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 11bf3e58-30bc-483d-8bf3-e0136a6ee2f7
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "11bf3e58-30bc-483d-8bf3-e0136a6ee2f7",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "11bf3e58-30bc-483d-8bf3-e0136a6ee2f7",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "11bf3e58-30bc-483d-8bf3-e0136a6ee2f7",
+  "x-ms-request-id": "3e779114-224c-4b6c-89d8-3ce2cdfcd867",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:19 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 11bf3e58-30bc-483d-8bf3-e0136a6ee2f7
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request af2035dc-13f2-447c-8c4c-994e43596caa
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "af2035dc-13f2-447c-8c4c-994e43596caa",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "af2035dc-13f2-447c-8c4c-994e43596caa",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "af2035dc-13f2-447c-8c4c-994e43596caa",
+  "x-ms-request-id": "bb234b64-42e1-4a37-b940-825f3798f995",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:21 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request af2035dc-13f2-447c-8c4c-994e43596caa
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 0f583a54-0328-4442-9971-3433ff7e3487
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "0f583a54-0328-4442-9971-3433ff7e3487",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "0f583a54-0328-4442-9971-3433ff7e3487",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "0f583a54-0328-4442-9971-3433ff7e3487",
+  "x-ms-request-id": "91ec9737-ee44-4c9f-9f03-1ab35571c885",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:24 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 0f583a54-0328-4442-9971-3433ff7e3487
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 699b8318-c8ef-4ce5-8357-927461d604c4
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "699b8318-c8ef-4ce5-8357-927461d604c4",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "699b8318-c8ef-4ce5-8357-927461d604c4",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "699b8318-c8ef-4ce5-8357-927461d604c4",
+  "x-ms-request-id": "10d89325-dee3-4931-b901-4543b32c0111",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:26 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 699b8318-c8ef-4ce5-8357-927461d604c4
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 14ea934d-94cd-4000-bf7b-1f25640faa7a
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "14ea934d-94cd-4000-bf7b-1f25640faa7a",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "14ea934d-94cd-4000-bf7b-1f25640faa7a",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "14ea934d-94cd-4000-bf7b-1f25640faa7a",
+  "x-ms-request-id": "35a6aac5-c93b-4772-bfca-2f1a8ab697ae",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:28 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 14ea934d-94cd-4000-bf7b-1f25640faa7a
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request bf234073-8d23-4c8e-9b8f-e575269903f9
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "bf234073-8d23-4c8e-9b8f-e575269903f9",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "bf234073-8d23-4c8e-9b8f-e575269903f9",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "bf234073-8d23-4c8e-9b8f-e575269903f9",
+  "x-ms-request-id": "202aaada-d90f-4f6e-991c-be267b416c1b",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:31 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request bf234073-8d23-4c8e-9b8f-e575269903f9
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 2e500d91-8807-4b88-ad91-97c8341a6ea7
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "2e500d91-8807-4b88-ad91-97c8341a6ea7",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "2e500d91-8807-4b88-ad91-97c8341a6ea7",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "2e500d91-8807-4b88-ad91-97c8341a6ea7",
+  "x-ms-request-id": "dfe6ff9e-8d11-4db3-8f82-14ed9316b64e",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:33 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 2e500d91-8807-4b88-ad91-97c8341a6ea7
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request e6a29988-2241-4979-929c-a094e45db128
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "e6a29988-2241-4979-929c-a094e45db128",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "e6a29988-2241-4979-929c-a094e45db128",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "e6a29988-2241-4979-929c-a094e45db128",
+  "x-ms-request-id": "ccfa9fca-b4e4-440a-b0a8-cd1a52c44239",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:35 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request e6a29988-2241-4979-929c-a094e45db128
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 70597ef7-857b-4383-98dd-d6554d092641
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "70597ef7-857b-4383-98dd-d6554d092641",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "70597ef7-857b-4383-98dd-d6554d092641",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "70597ef7-857b-4383-98dd-d6554d092641",
+  "x-ms-request-id": "01b5dbeb-2c10-4913-8710-8fae90951bf8",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:37 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 70597ef7-857b-4383-98dd-d6554d092641
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request c6ca88a3-34f5-4905-abda-3aef659bfd8b
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "c6ca88a3-34f5-4905-abda-3aef659bfd8b",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "c6ca88a3-34f5-4905-abda-3aef659bfd8b",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "c6ca88a3-34f5-4905-abda-3aef659bfd8b",
+  "x-ms-request-id": "5ac57956-97b3-4cad-9cc8-1942a5558424",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:39 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request c6ca88a3-34f5-4905-abda-3aef659bfd8b
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request fe9f7a8c-04bf-4db8-97bb-1abb748cb3f9
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "fe9f7a8c-04bf-4db8-97bb-1abb748cb3f9",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "fe9f7a8c-04bf-4db8-97bb-1abb748cb3f9",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "fe9f7a8c-04bf-4db8-97bb-1abb748cb3f9",
+  "x-ms-request-id": "36c5712f-ed52-44fc-a8c5-ce55adc5486c",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:41 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request fe9f7a8c-04bf-4db8-97bb-1abb748cb3f9
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 616b7b28-bde7-43d4-93eb-6785a9583a89
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "616b7b28-bde7-43d4-93eb-6785a9583a89",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "616b7b28-bde7-43d4-93eb-6785a9583a89",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "616b7b28-bde7-43d4-93eb-6785a9583a89",
+  "x-ms-request-id": "b55816ea-bae9-4ecc-99e6-ee83c5c68e82",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:44 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 616b7b28-bde7-43d4-93eb-6785a9583a89
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 1a31784e-45a0-4354-9cb6-bed6550a5ead
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "1a31784e-45a0-4354-9cb6-bed6550a5ead",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "1a31784e-45a0-4354-9cb6-bed6550a5ead",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "1a31784e-45a0-4354-9cb6-bed6550a5ead",
+  "x-ms-request-id": "281a89dc-bcf6-4e4f-8de5-d88705394b94",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:46 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 1a31784e-45a0-4354-9cb6-bed6550a5ead
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 914318e7-7dd1-45d4-acd0-0db9c316f003
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "914318e7-7dd1-45d4-acd0-0db9c316f003",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "914318e7-7dd1-45d4-acd0-0db9c316f003",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 404
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-length": "101",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "914318e7-7dd1-45d4-acd0-0db9c316f003",
+  "x-ms-request-id": "5b7342f0-6900-4a8e-b33b-5a1e36a29fec",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:48 GMT"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 914318e7-7dd1-45d4-acd0-0db9c316f003
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Attempting to send request 683794f0-70aa-45c5-8dc4-748bb717a61f
+azure:keyvault-certificates:info Request: {
+  "url": "https://diberry-kv.vault.azure.net/deletedcertificates/cert1675296713031?api-version=7.3",
+  "headers": {
+    "accept": "application/json",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "azsdk-js-keyvault-certificates/4.6.0 core-rest-pipeline/1.10.1 Node/v18.13.0 OS/(x64-Linux-5.10.102.1-microsoft-standard-WSL2)",
+    "x-ms-client-request-id": "683794f0-70aa-45c5-8dc4-748bb717a61f",
+    "authorization": "REDACTED"
+  },
+  "method": "GET",
+  "timeout": 0,
+  "disableKeepAlive": false,
+  "streamResponseStatusCodes": {},
+  "withCredentials": false,
+  "tracingOptions": {
+    "tracingContext": {
+      "_contextMap": {}
+    }
+  },
+  "requestId": "683794f0-70aa-45c5-8dc4-748bb717a61f",
+  "allowInsecureConnection": false,
+  "enableBrowserStreams": false
+}
+azure:keyvault-certificates:info Response status code: 200
+azure:keyvault-certificates:info Headers: {
+  "cache-control": "no-cache",
+  "pragma": "no-cache",
+  "content-type": "application/json; charset=utf-8",
+  "expires": "-1",
+  "x-ms-keyvault-region": "eastus",
+  "x-ms-client-request-id": "683794f0-70aa-45c5-8dc4-748bb717a61f",
+  "x-ms-request-id": "e24d222c-8779-4f80-abf7-c19aec18010a",
+  "x-ms-keyvault-service-version": "1.9.679.1",
+  "x-ms-keyvault-network-info": "conn_type=Ipv4;addr=76.22.73.183;act_addr_fam=InterNetwork;",
+  "x-content-type-options": "nosniff",
+  "strict-transport-security": "max-age=31536000;includeSubDomains",
+  "date": "Thu, 02 Feb 2023 00:14:50 GMT",
+  "content-length": "1165"
+}
+azure:core-rest-pipeline retryPolicy:info Retry 0: Received a response from request 683794f0-70aa-45c5-8dc4-748bb717a61f
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing 2 retry strategies.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy throttlingRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Processing retry strategy exponentialRetryStrategy.
+azure:core-rest-pipeline retryPolicy:info Retry 0: Skipped.
+azure:core-rest-pipeline retryPolicy:info None of the retry strategies could work with the received response. Returning it.
+node ➜ /workspaces/quickstart (main) $ 

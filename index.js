@@ -1,6 +1,8 @@
 const { CertificateClient, DefaultCertificatePolicy } = require("@azure/keyvault-certificates");
 const { DefaultAzureCredential } = require("@azure/identity");
 
+console.log(process.env.AZURE_LOG_LEVEL);
+
 async function main() {
   // If you're using MSI, DefaultAzureCredential should "just work".
   // Otherwise, DefaultAzureCredential expects the following three environment variables:
